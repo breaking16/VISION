@@ -57,6 +57,10 @@ ul {
   height: 100px;
 }
 
+.header__logo {
+  margin-left: 115px;
+}
+
 .list {
   display: flex;
 }
@@ -140,4 +144,45 @@ ul {
   font-size: 18px;
   font-weight: 700;
   line-height: 120%;
+}
+
+.concept__text {
+  font-size: 24px;
+  margin-bottom: 25px;
+  line-height: 120%;
+}
+
+.premier {
+  margin-bottom: 150px;
+}
+
+.premier__inner {
+  display: flex;
+  gap: 60px;
+}
+
+.premier__text {
+  margin-bottom: 22px;
+}
+
+.premier__img {
+  margin-bottom: 20px;
+}
+
+.premier__btn {
+  font-family: "Corporate-A-Bold";
+  text-transform: uppercase;
+  display: block;
+  width: 100%;
+  font-size: 18px;
+  line-height: 120%;
+  color: rgb(244, 2, 162);
+  text-align: center;
+  padding: 14px;
+  border: 1px solid rgb(244, 2, 162);
+  transition: all 0.3s;
+}
+.premier__btn:hover {
+  color: rgb(83, 161, 203);
+  border: 1px solid rgb(83, 161, 203);
 }
