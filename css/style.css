@@ -18,7 +18,7 @@ html {
 
 body {
   font-family: "Roboto Condensed", sans-serif;
-  background: rgb(7, 10, 27);
+  background: linear-gradient(180deg, rgb(7, 10, 27), rgb(42, 49, 112) 100%);
   font-weight: 400;
   font-size: 16px;
   line-height: 120%;
@@ -48,6 +48,7 @@ ul {
 }
 
 .header {
+  background: rgb(7, 10, 27);
 }
 
 .header__top {
@@ -117,6 +118,10 @@ ul {
   font-size: 24px;
   text-shadow: rgba(0, 0, 0, 0.25);
   margin-bottom: 50px;
+}
+
+.footer {
+  background: rgb(7, 10, 27);
 }
 
 .footer__inner {
@@ -229,6 +234,7 @@ ul {
   grid-template-columns: 255px 255px auto 330px;
   grid-template-rows: auto auto;
   gap: 14px 44px;
+  margin-bottom: 100px;
 }
 
 .design__cell-one {
@@ -250,4 +256,12 @@ ul {
 
 .design__cell-text {
   margin-bottom: 15px;
+}
+
+.design-slider__item {
+  margin: 0 30px;
+}
+
+.slick-track {
+  margin-left: -35px;
 }
