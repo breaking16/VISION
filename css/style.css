@@ -186,3 +186,68 @@ ul {
   color: rgb(83, 161, 203);
   border: 1px solid rgb(83, 161, 203);
 }
+
+.video {
+  margin-bottom: 150px;
+}
+
+.vide__img {
+  margin-bottom: 25px;
+}
+
+.video__btn {
+  font-family: "Corporate-A-Bold";
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 10px;
+  width: 100%;
+  font-size: 18px;
+  line-height: 120%;
+  color: rgb(244, 2, 162);
+  padding: 14px;
+  border: 1px solid rgb(244, 2, 162);
+  transition: all 0.3s;
+}
+.video__btn span {
+  padding-top: 2px;
+}
+.video__btn:hover {
+  color: rgb(83, 161, 203);
+  border: 1px solid rgb(83, 161, 203);
+}
+.video__btn path {
+  transition: all 0.3s;
+}
+.video__btn:hover path {
+  fill: rgb(83, 161, 203);
+}
+
+.design__interior {
+  display: grid;
+  grid-template-columns: 255px 255px auto 330px;
+  grid-template-rows: auto auto;
+  gap: 14px 44px;
+}
+
+.design__cell-one {
+  grid-row: 1/3;
+}
+
+.design__cell-two {
+  grid-row-end: -1;
+  display: flex;
+  align-items: flex-end;
+}
+
+.design__cell-three {
+  grid-column-end: -1;
+  grid-row-end: -1;
+  display: flex;
+  align-items: flex-end;
+}
+
+.design__cell-text {
+  margin-bottom: 15px;
+}
